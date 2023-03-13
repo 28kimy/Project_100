@@ -1,0 +1,48 @@
+body
+{
+    background: #a8f6f7;
+}
+
+h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+}
+
+h4{
+    color: darkblue;
+}
+
+#camera{
+    width: 600px;
+    height: 500px;
+    border-radius: 15px;
+    border-width: 3px;
+    border-color: violet;
+    border-style: dotted;
+}
+
+img{
+    width: 37%;
+    border-radius: 3px;
+    padding: 10px;
+    box-shadow: 0 6px 8px 0 rgba(2,2,2,0.2);
+}
+img:hover{
+    border-radius: 140px;
+}
+
+.column{
+    display: inline;
+    padding: 10px;
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: black;
+    bottom: 0;
+    width: 100%;
+    background-color: blanchedalmond;
+    line-height: 3;
+    text-align: center;
+}
